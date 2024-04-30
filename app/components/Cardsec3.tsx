@@ -11,7 +11,7 @@ interface CardProps {
 
 const Cardsec3: React.FC<CardProps> = ({ title, description, numberOfVideos, amount }) => {
   return (
-    <div className="bg-gray-200 rounded-lg w-96 h-auto">
+    <div className="rounded-lg w-96 h-auto border border-solid border-F8F8F8">
       <div className="bg-white rounded-lg mb-6" style={{ backgroundImage: `url(${bgimg.src})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <h3 className="text-lg text-white	pt-4 px-4 font-bold mb-2">{title}</h3>
         <p className="text-white p-4">{description}</p>
@@ -52,7 +52,7 @@ const Cardsec3: React.FC<CardProps> = ({ title, description, numberOfVideos, amo
   
 </div>
         <p className="font-bold text-3xl mb-2">Rs {amount}</p>
-        <button className="bg-blue-500 text-white px-4 py-2 w-max rounded-lg hover:bg-blue-600 mt-2 mb-2">Order Now</button>
+        <button className="bg-indigo-950 text-white px-4 py-2 w-full rounded-full hover:bg-blue-600 mt-2 mb-2">Order Now</button>
       </div>
       </div>
   );

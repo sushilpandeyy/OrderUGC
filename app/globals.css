@@ -2,3 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
+.screen-1-child1 {
+    position: absolute;
+    top: 1431px;
+    left: 266px;
+    border-radius: 26px;
+    background: linear-gradient(
+      -71.29deg,
+      #d0cae9 4.75%,
+      #fefefe 19.5%,
+      #fff 69%,
+      #d9d9d9 93.21%
+    );
+    width: 979px;
+    height: 518px;
+  }
+  .mask-group-icon4,
+  .mask-group-icon5,
+  .vector-icon {
+    position: absolute;
+    top: 1474px;
+    left: 292px;
+    width: 390px;
+    height: 436px;
+    object-fit: cover;
+  }
+  .mask-group-icon5,
+  .vector-icon {
+    top: 1472px;
+    left: 824px;
+  }
+  .vector-icon {
+    height: 88.61%;
+    width: 13.62%;
+    top: 5.83%;
+    right: 0;
+    bottom: 5.56%;
+    left: 86.38%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+  }
+.frame-div,
+.vector-icon1 {
+  position: absolute;
+  overflow: hidden;
+}
+.frame-div {
+  top: 1500px;
+  left: 206px;
+  width: 215px;
+  height: 41px;
+  text-align: center;
+  color: var(--color-white);
+}
+  

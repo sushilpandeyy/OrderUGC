@@ -18,7 +18,7 @@ export default function Logoslider() {
   ];
 
   return (
-    <div className="relative overflow-x-scroll h-screen">
+    <div className="relative overflow-x-scroll">
       <div className="flex flex-nowrap relative">
         <div className="absolute top-0 left-0 h-full w-16 bg-gradient-to-r from-white to-transparent"></div>
         <div className="absolute top-0 right-0 h-full w-16 bg-gradient-to-l from-white to-transparent"></div>

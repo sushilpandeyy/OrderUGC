@@ -10,6 +10,7 @@ import Section6 from "./components/Section6";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Section7 from "./components/Section7";
+import Orderbutton from "./components/Orberbutton";
 
 export default function Home() {
   return (
@@ -35,11 +36,7 @@ export default function Home() {
    </div>
    <div className="my-10">
     <center>
-   <button className="border px-4 py-1 mt-3 rounded-full shadow-2xl bg-indigo-800">
-        <p className="font-poppins text-20 font-medium leading-30 text-left text-white">
-    Order Now
-</p>
-        </button>
+   <Orderbutton/>
         </center>
     </div>
     <div className="mx-10 my-10">

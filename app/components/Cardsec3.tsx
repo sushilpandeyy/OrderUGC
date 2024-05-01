@@ -1,6 +1,7 @@
 import React from 'react';
 import bgimg from "../../public/bgimg.png"
 import Charm_Tick from "../../public/Charm_Tick.png"
+import Orderbutton from './Orberbutton';
 
 interface CardProps {
   title: string;
@@ -52,7 +53,7 @@ const Cardsec3: React.FC<CardProps> = ({ title, description, numberOfVideos, amo
   
 </div>
         <p className="font-bold text-3xl mb-2">Rs {amount}</p>
-        <button className="bg-indigo-950 text-white px-4 py-2 w-full rounded-full hover:bg-blue-600 mt-2 mb-2">Order Now</button>
+        <Orderbutton/>
       </div>
       </div>
   );

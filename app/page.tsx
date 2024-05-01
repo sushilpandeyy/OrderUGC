@@ -9,6 +9,7 @@ import Section5 from "./components/Section5";
 import Section6 from "./components/Section6";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Section7 from "./components/Section7";
 
 export default function Home() {
   return (
@@ -41,8 +42,9 @@ export default function Home() {
         </button>
         </center>
     </div>
-    <div className="mx-10">
+    <div className="mx-10 my-10">
       <Section6/>
+      <Section7/>
     </div>
    </>
   );
